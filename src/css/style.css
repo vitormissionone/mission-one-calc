@@ -1,0 +1,102 @@
+h1 {
+  color: red;
+}
+
+#Cabeçalho {
+  background: #000000;
+  width: 375px;
+  height: 66px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: #ff0000;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#Caixa-Principal {
+  background: #e5e5e5;
+  width: 375px;
+  padding: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.paragrafo {
+  margin-bottom: 6px;
+  color: #777777;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.select {
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 48px;
+  width: 327px;
+  margin-bottom: 23px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#input {
+  height: 48px;
+  width: 327px;
+  background: #ffffff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  margin-bottom: 23px;
+  outline: none;
+  padding-left: 16px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#botão {
+  background: #000000;
+  border-radius: 25px;
+  display: block;
+  height: 48px;
+  width: 327px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 23px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #ff0000;
+  outline: none;
+}
+
+#Caixa-Interna {
+  border: 1px solid #9657a5;
+  border-radius: 4px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+.Caixa-Menor {
+  text-align: center;
+}
+
+#seta {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.paragrafo-negrito {
+  font-size: 20px;
+  line-height: 18px;
+  font-weight: bold;
+}
