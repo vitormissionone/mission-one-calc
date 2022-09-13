@@ -6,14 +6,14 @@ let select = document.getElementById("select-moedas")
 
 async function ConverterMoedas() {
 
-let moedas = await fetch("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL").then( function(resposta){
-    return resposta.json()
-})
+    let moedas = await fetch("http://economia.awesomeapi.com.br/json/last/USD-BRL,EUR-BRL").then(function (resposta) {
+        return resposta.json()
+    })
 
-let dolar = moedas.USDBRL.high
-let euro = moedas.EURBRL.high
-console.log(dolar)
-console.log(euro)
+    let dolar = moedas.USDBRL.high
+    let euro = moedas.EURBRL.high
+    console.log(dolar)
+    console.log(euro)
 
     let inputValorEmReais = Number(document.getElementById("input").value)
     let inputMoedas = document.getElementById("input-moedas")
@@ -42,14 +42,14 @@ function TrocaDeMoeda() {
 
     if (select.value === "€ Euro") {
         textoMoedas.innerHTML = "Euro"
-        bandeiraMoedas.src = "./img/euro.png"
+        bandeiraMoedas.src = "./src/img/euro.png"
     }
 
 
 
     if (select.value === "US$ Dólar Americano") {
         textoMoedas.innerHTML = "Dólar Americano"
-        bandeiraMoedas.src = "./img/usa.png"
+        bandeiraMoedas.src = "./src/img/usa.png"
     }
 
 
